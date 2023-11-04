@@ -2,26 +2,50 @@
 <html>
 <head>
   <title>My Website</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #000;
+      color: #fff;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #000;
+      color: #fff;
+    }
+  </style>
 </head>
 <body>
+
   <header>
     <h1>My Website</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-    </nav>
   </header>
+
   <main>
     <section id="hero">
       <h2>Welcome to my website!</h2>
       <p>This is the main content of my website.</p>
     </section>
+
     <section id="about">
       <h2>About me</h2>
       <p>I am a web developer who loves to create beautiful and functional websites.</p>
     </section>
+
     <section id="contact">
       <h2>Contact me</h2>
       <form action="/contact/" method="post">
@@ -32,8 +56,10 @@
       </form>
     </section>
   </main>
+
   <footer>
     <p>Copyright &copy; 2023 My Website</p>
   </footer>
+
 </body>
 </html>
